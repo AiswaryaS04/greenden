@@ -19,7 +19,7 @@
     >
       <h1 class="text-2xl">GREENDEN</h1>
 
-      <svg
+      <svg id="menuicon"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
@@ -36,16 +36,34 @@
 
       <ul class="flex gap-5 text-gray-600 hidden md:flex">
         <li>
-          <a class="hover:underline hover:text-black" href="#">Home</a>
+          <a href="C:\Users\ASUS\Desktop\fswd\Tailwind\index.html" class="hover:underline hover:text-black" href="#">Home</a>
         </li>
         <li>
-          <a class="hover:underline hover:text-black" href="#">products</a>
+          <a href="C:\Users\ASUS\Desktop\fswd\Tailwind\product.html"class="hover:underline hover:text-black" href="#">products</a>
         </li>
         <li>
-          <a class="hover:underline hover:text-black" href="#">Contact</a>
+          <a href="C:\Users\ASUS\Desktop\fswd\Tailwind\contact.html"class="hover:underline hover:text-black" href="#">Contact</a>
         </li>
       </ul>
     </nav>
+    <!--side navbar-->
+    <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000" style="width:50%;height:100vh;right:-50%">
+      <div class="text-right p-5">
+        <p id="closenav" class="inline cursor-pointer">X</p>
+
+      </div>
+      <ul class="flex flex-col gap-10 items-center text-gray-600  ">
+        <li>
+          <a href="C:\Users\ASUS\Desktop\fswd\Tailwind\index.html" class="hover:underline hover:text-black" href="#">Home</a>
+        </li>
+        <li>
+          <a href="C:\Users\ASUS\Desktop\fswd\Tailwind\product.html"class="hover:underline hover:text-black" href="#">products</a>
+        </li>
+        <li>
+          <a href="C:\Users\ASUS\Desktop\fswd\Tailwind\contact.html"class="hover:underline hover:text-black" href="#">Contact</a>
+        </li>
+      </ul>
+    </section>
     <!--Header Section-->
     <section class="bg-green-100 p-4 md:p-10 flex justify-center">
       <div>
@@ -198,7 +216,8 @@
     <!--Customer Reviews-->
     <section>
       <h1 class="text-3xl font-bold mt-5 text-center">Customer Reviews</h1>
-      <div class="flex flex-col gap-5 justify-center text-white m-5">
+      <div class="flex flex-col gap-5 justify-center text-white m-40">
+       
         <div class="bg-green-900 p-5 container">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam,
@@ -225,6 +244,7 @@
             recusandae similique numquam et.
           </p>
           <p class="font-bold text-yellow-300">Parker</p>
+        </div>
         </div>
       </div>
     </section>
@@ -257,5 +277,7 @@
       
       
     </section>
+
+    <script src="index.js"></script>
   </body>
 </html>
